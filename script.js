@@ -13,3 +13,22 @@ document.querySelectorAll('.circle-container li').forEach(function(item) {
         });
     });
 });
+
+
+
+/*
+var app = new Vue({
+    el: '#app',
+    data: {
+        highlightedId: null
+    },
+    methods: {
+        highlight(id) {
+            this.highlightedId = id;
+        },
+        removeHighlight() {
+            this.highlightedId = null;
+        }
+    }
+}); 
+*/
